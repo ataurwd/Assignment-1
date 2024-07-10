@@ -2,8 +2,9 @@
 
 body{
     font-family: "Azeret Mono", monospace;
-    /* max-width: 1400px;
-    width: 100%; */
+}
+html{
+    scroll-behavior: smooth;
 }
 
 /* This is for nav bar */
@@ -262,7 +263,7 @@ iframe{
     background-position: center;
     background-size: cover;
     border-radius: 16px;
-    background-color: rgba(0, 0, 0, 0.445);
+    background-color: rgba(0, 0, 0, 0.493);
     background-blend-mode: overlay;
 }
 .support{
@@ -280,6 +281,8 @@ iframe{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    width: 70%;
+    margin: 10px auto;
 }
 .support input {
     width: 469px;
@@ -288,6 +291,7 @@ iframe{
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    padding-left: 18px;
 }
 
 .support button{
