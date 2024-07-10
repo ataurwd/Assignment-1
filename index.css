@@ -2,6 +2,8 @@
 
 body{
     font-family: "Azeret Mono", monospace;
+    /* max-width: 1400px;
+    width: 100%; */
 }
 
 /* This is for nav bar */
@@ -98,11 +100,13 @@ margin: 74px 100px;
 }
 
 /* first and second service */
+.first, .second, .third{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
 
 .first, .third{
     padding: 48px;
     display: flex;
-    background-color: white;
     justify-content: space-between;
     border-radius: 16px;
     margin-bottom: 32px;
@@ -129,7 +133,6 @@ margin: 74px 100px;
 .second{
     padding: 48px;
     display: flex;
-    background-color: white;
     justify-content: space-between;
     border-radius: 16px;
     margin-bottom: 32px;
@@ -163,6 +166,7 @@ margin: 74px 100px;
     background-color: white;
     border: 1px solid rgba(13, 19, 33, 0.171);
     margin-top: 10px;
+    cursor: pointer;
 }
 
 /* My Inspiration Section */
@@ -190,6 +194,118 @@ margin: 74px 100px;
     border-radius: 16px;
     }
 
-    iframe{
-        border-radius: 15px;
-    }
+iframe{
+    border-radius: 15px;
+}
+
+.card-sec{
+    display: flex;
+    padding: 50px 150px;
+}
+
+.card{
+    background-color: aqua;
+    margin: 0px 24px;    
+    padding: 40px;
+    border-radius: 16px;
+}
+.card1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.card2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.card3{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card a{
+    border: none;
+    text-decoration: underline;
+    padding-left: 0;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.card h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.card p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/* support section */
+
+
+.support-main{
+    width: 1140px;
+    height: 324px;
+    background-image: url(./assets/handshake.jpg);
+    margin: 30px auto;
+}
+.support{
+    text-align: center;
+    padding: 64px 48px;
+}
+.support h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.support p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.support input {
+    width: 469px;
+    height: 41px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.support button{
+    height: 41px;
+    width: 90px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    padding: 30px 150px;
+    border-radius: 16px;
+    margin-bottom: 0;
+    background: rgba(13, 19, 33, 0.03);
+    justify-content: space-between;
+}
+.footer h1{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.footer img{
+    cursor: pointer;
+}
